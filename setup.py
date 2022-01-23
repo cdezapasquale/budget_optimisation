@@ -18,14 +18,14 @@ if os.path.isfile(requirementPath):
 
 
 setup(
-    name="Budget Optimisation",
+    name="budget_optimisation",
     version="0.0.1",
     author="Deza Pasquale",
     author_email="camila.deza.pasquale@gmail.com, facujdeza@gmail.com",
     description="Channel optimisation",
     long_description="Optimisation of your marketing investment to maximize your KPI ",
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/facundodeza/budget_optimisation",
     install_requires=install_requires,
     classifiers=[
         "Programming Language :: Python :: 3",
