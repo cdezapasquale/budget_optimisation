@@ -31,13 +31,13 @@ The orange curve might be the time where you have invested 42500 and get 750 tho
 The same thing is for channel 2
 
 # How do we simulate and evaluate?
-We got a sampled curve for each channel, imagine we got the green curve for channel 1 and the orange curve for channel 2. 
-We optimized based on a given budget (for example, the budget we have spent in December 2021). The optimisation gives us how much to invest in channel 1 and channel 2.
-We got another sampled curve for each channel. In this case, we get the orange curve for channel 1 and the green curve for channel 2.
-Using the curves in 3), we get the expected revenue (KPI) investing in each channel based on 2). 
-Using the curves in 3), we get the expected revenue (KPI) investing in each channel based on how the budget was allocated in December 2021 between channel 1 and channel 2.
-We compare if 4) is bigger than 5) and its variation.
-Repeat this process N times. 
+1) We got a sampled curve for each channel, imagine we got the green curve for channel 1 and the orange curve for channel 2. 
+2) We optimized based on a given budget (for example, the budget we have spent in December 2021). The optimisation gives us how much to invest in channel 1 and channel 2.
+3) We got another sampled curve for each channel. In this case, we get the orange curve for channel 1 and the green curve for channel 2.
+4) Using the curves in 3), we get the expected revenue (KPI) investing in each channel based on 2). 
+5) Using the curves in 3), we get the expected revenue (KPI) investing in each channel based on how the budget was allocated in December 2021 between channel 1 and channel 2.
+6) We compare if 4) is bigger than 5) and its variation.
+7) Repeat this process N times. 
 
 Following our example:
 In our data, we will run this process 5000 times for each month of 2021.
