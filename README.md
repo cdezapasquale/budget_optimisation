@@ -2,7 +2,7 @@
 Budget optimisation is library to help you allocate your investement in different marketing channels in order to maximize a KPI of your interest, like revenue. 
 
 # Usage 
-pip install git+https://github.com/facundodeza/budget_optimisation.git
+pip install git+https://github.com/cdezapasquale/budget_optimisation.git
 
 # budget_optimisation
 
