@@ -60,9 +60,8 @@ We have seen that using simulation is convenient for assessing our new decision 
 
 from datetime import datetime
 
-# We fix a seed for month and year. Therefore, the user will not 
-# repeat until he gets something he likes. The sampled curves 
-# must be random. 
+We fix a seed for month and year. Therefore, the user will not repeat until he gets something he likes. The sampled curves must be random. 
+
 seed = datetime.today().month * datetime.today().year
 
 # Set the budget you want to spend for a given month.
