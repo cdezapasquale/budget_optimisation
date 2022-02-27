@@ -7,8 +7,11 @@ pip install git+https://github.com/facundodeza/budget_optimisation.git
 # budget_optimisation
 
 After that, we can generate fake data using:
+
 from budget_optimisation import *
+
 df_test = make_dataframe(2, 1)
+
 The first argument of the function is how many channels you want. The second argument is how many markets you want
 
 If we plot them we will that none of them shows a perfect curve but we can see that grows at the beginning and then start to get flatter. 
