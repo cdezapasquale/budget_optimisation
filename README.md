@@ -21,8 +21,6 @@ We use bootstrapping for getting the distribution. It is important to say that a
 
 dict_market = get_distribution(df_test, 1000, 1000, 'market_column', 'channel_column', 'spend_column', 'kpi_column', None)
 
-Our dict_market looks like this:
-
 For example, Channel 1 and its parameter a is normally distributed with a mean of 775.6970 and a standard deviation of 108.2592. For its b parameter, is normally distributed with a mean of 0.6731 and a standard deviation of 0.0134. 
 
 # Why do we simulate?
