@@ -21,7 +21,7 @@ setup(
     name="budget_optimisation",
     version="0.0.1",
     author="Deza Pasquale",
-    author_email="facujdeza@gmail.com",
+    author_email="camila.deza.pasquale@gmail.com",
     description="Channel optimisation",
     long_description="Optimisation of your marketing investment to maximize your KPI ",
     long_description_content_type="text/markdown",
